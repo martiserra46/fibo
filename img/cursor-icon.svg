@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.961" height="53.755" viewBox="0 0 47.961 53.755">
+  <defs>
+    <filter id="fletxa_complet" x="4.899" y="7.907" width="43.062" height="45.848" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_26" data-name="Grupo 26" transform="translate(-1117.239 -1583.54)">
+    <g transform="matrix(1, 0, 0, 1, 1117.24, 1583.54)" filter="url(#fletxa_complet)">
+      <path id="fletxa_complet-2" data-name="fletxa complet" d="M1992.835,329.986l-23.251-10.574a.905.905,0,0,0-1.19.445.883.883,0,0,0-.051.6l6.9,26.058a.9.9,0,0,0,.838.667.7.7,0,0,0,.262-.034.9.9,0,0,0,.621-.583l4.039-11.8,11.7-3.1a.9.9,0,0,0,.64-1.1A.919.919,0,0,0,1992.835,329.986Z" transform="translate(-1954.41 -305.43)" fill="#fff"/>
+    </g>
+    <g id="fletxa_complet-3" data-name="fletxa complet" transform="translate(1117.239 1583.54)">
+      <path id="Trazado_18" data-name="Trazado 18" d="M1940.146,210.357a.9.9,0,0,1-1.1-.645l-1.84-6.945a.9.9,0,0,1,1.743-.462l1.841,6.947a.9.9,0,0,1-.641,1.106Z" transform="translate(-1926.953 -201.633)" fill="#96d3e4"/>
+      <path id="Trazado_19" data-name="Trazado 19" d="M1858.764,336.584l-6.954,1.842a.9.9,0,0,1-.461-1.743l6.946-1.84a.9.9,0,1,1,.472,1.741Z" transform="translate(-1850.678 -319.075)" fill="#96d3e4"/>
+      <path id="Trazado_20" data-name="Trazado 20" d="M1870.53,263.489a.931.931,0,0,1-.685-.089l-6.208-3.611a.905.905,0,0,1,.91-1.566l6.213,3.619a.894.894,0,0,1,.326,1.229.973.973,0,0,1-.552.417Z" transform="translate(-1861.709 -251.429)" fill="#96d3e4"/>
+      <path id="Trazado_21" data-name="Trazado 21" d="M2000.013,222.107a.9.9,0,0,1-1.011-1.319l3.609-6.218a.9.9,0,1,1,1.554.9l-3.607,6.219A.9.9,0,0,1,2000.013,222.107Z" transform="translate(-1981.37 -212.647)" fill="#96d3e4"/>
+    </g>
+  </g>
+</svg>

@@ -30,7 +30,7 @@ p {
     color: #303030;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #303030;
 }
 
@@ -179,12 +179,13 @@ div.hero-buttons > a:nth-child(2) {
 /** WELCOME **/
 section.welcome-section {
     background-image: url("../img/welcome-background.svg");
-    background-size: cover;
-    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 div.content-welcome-section {
-    padding-top: 120px;
+    padding-top: 90px;
     padding-bottom: 90px;
 }
 
@@ -219,4 +220,85 @@ span.paragraph-decorator:before {
 div.content-welcome-section p em {
     font-style: normal;
     font-weight: bold;
+}
+
+
+
+/** BENEFITS **/
+section.benefits-section {
+    position: relative;
+    background-color: #96D3E4;
+}
+
+h2.benefits-heading {
+    position: absolute;
+    top: -22.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #303030;
+    color: white;
+    font-size: 2.4rem;
+    width: 220px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+span.cursor-icon {
+    position: relative;
+}
+
+span.cursor-icon:after {
+    content: '';
+    background-image: url("../img/cursor-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -35px;
+    bottom: -20px;
+}
+
+ul.list-benefits {
+    background-color: #96D3E4;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.list-item-benefit {
+    width: 280px;
+}
+
+li.list-item-benefit > p:nth-child(1) {
+    font-size: 4.6rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+li.list-item-benefit > p:nth-child(1):after {
+    content: '';
+    display: block;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    border-radius: 20px;
+}
+
+li.list-item-benefit > h3 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+li.list-item-benefit > p:nth-child(3) {
+    font-size: 1.6rem;
+    line-height: 1.3;
 }
