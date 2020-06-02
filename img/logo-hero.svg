@@ -1,0 +1,19 @@
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="343.517" height="157.103" viewBox="0 0 343.517 157.103">
+  <g id="f" transform="translate(0)">
+    <path id="Trazado_16" data-name="Trazado 16" d="M817.721,456.7c-1.051,61.525-92.569,61.515-93.61,0C725.161,395.169,816.678,395.188,817.721,456.7Zm-47.662-19.708c-25.9.443-25.9,38.974,0,39.413C795.962,475.958,795.957,437.427,770.058,436.988Z" transform="translate(-610.03 -345.876)" fill="#fff"/>
+    <path id="Trazado_17" data-name="Trazado 17" d="M687,.9h32.139V157.72H687Z" transform="translate(-578.766 -0.758)" fill="#fff"/>
+    <path id="o" d="M1454.659,448.905a46.8,46.8,0,1,1-46.805-46.805A46.8,46.8,0,0,1,1454.659,448.905ZM1407.853,429.2a19.707,19.707,0,1,0,19.708,19.707,19.708,19.708,0,0,0-19.708-19.707Z" transform="translate(-1146.622 -338.751)" fill="#fff"/>
+    <g id="i" transform="translate(64.89 0.112)">
+      <rect id="Rectángulo_31" data-name="Rectángulo 31" width="32.141" height="93.543" transform="translate(0 63.338)" fill="#fff"/>
+      <ellipse id="Elipse_4" data-name="Elipse 4" cx="15.98" cy="15.98" rx="15.98" ry="15.98" transform="translate(0.091)" fill="#fff"/>
+    </g>
+    <path id="fletxa_complet" data-name="fletxa complet" d="M2001.009,333.537l-31-14.1a1.207,1.207,0,0,0-1.586.594,1.177,1.177,0,0,0-.067.8l9.206,34.744a1.2,1.2,0,0,0,1.118.889.922.922,0,0,0,.349-.046,1.2,1.2,0,0,0,.828-.777l5.385-15.729,15.6-4.128a1.2,1.2,0,0,0,.853-1.468A1.226,1.226,0,0,0,2001.009,333.537Z" transform="translate(-1658.214 -269.024)" fill="#96d3e4"/>
+    <g id="fletxa_complet-2" data-name="fletxa complet" transform="translate(291.567 31.766)">
+      <path id="Trazado_18" data-name="Trazado 18" d="M1941.137,213.264a1.2,1.2,0,0,1-1.47-.86l-2.453-9.261a1.2,1.2,0,0,1,2.324-.616l2.453,9.262a1.2,1.2,0,0,1-.854,1.475Z" transform="translate(-1923.546 -201.633)" fill="#fff"/>
+      <path id="Trazado_19" data-name="Trazado 19" d="M1861.459,337.174l-9.271,2.456a1.2,1.2,0,1,1-.615-2.324l9.261-2.453a1.2,1.2,0,0,1,.63,2.321Z" transform="translate(-1850.678 -313.83)" fill="#fff"/>
+      <path id="Trazado_20" data-name="Trazado 20" d="M1872.978,265.285a1.241,1.241,0,0,1-.914-.118l-8.277-4.815a1.207,1.207,0,0,1,1.213-2.088l8.284,4.826a1.191,1.191,0,0,1,.434,1.638,1.294,1.294,0,0,1-.736.556Z" transform="translate(-1861.216 -249.205)" fill="#fff"/>
+      <path id="Trazado_21" data-name="Trazado 21" d="M2000.39,224.768a1.2,1.2,0,0,1-1.467-.843,1.218,1.218,0,0,1,.118-.915l4.812-8.29a1.2,1.2,0,1,1,2.072,1.205l-4.81,8.292A1.2,1.2,0,0,1,2000.39,224.768Z" transform="translate(-1975.533 -212.155)" fill="#fff"/>
+    </g>
+    <path id="Trazado_22" data-name="Trazado 22" d="M32.245,157.1H0V34.885S.421.123,32.245,0H53.772V31.958L36.79,31.9s-4.455.4-4.2,6.206l-.345,24.928H53.611l.158,27.309-21.527-.351Z" fill="#fff"/>
+  </g>
+</svg>
