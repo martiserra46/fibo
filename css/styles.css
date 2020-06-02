@@ -154,12 +154,12 @@ div.logo-site-header{
     align-items: center;
 }
 
-h1.content-logo-site-header{
+a.content-logo-site-header{
     display: block;
     height: 35px;
 }
 
-h1.content-logo-site-header img{
+a.content-logo-site-header img{
     height: 100%;
 }
 
@@ -224,6 +224,10 @@ div.content-hero {
     align-items: center;
     height: 300px;
     justify-content: space-between;
+}
+
+h1.fibo-main-heading {
+    margin: 0;
 }
 
 img.logo-hero {
