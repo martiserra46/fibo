@@ -31,6 +31,11 @@ header.site-header{
     background-color: #303030;
     height: 60px;
     padding: 0 32px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 div.content-site-header{
@@ -99,4 +104,59 @@ li.blue-list-item > a {
 
 li.blue-list-item > a > span:after {
     content: none;
+}
+
+
+/** HERO **/
+div.hero {
+    height: 100vh;
+    background-image: url("../img/hero-image.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: space-between;
+}
+
+img.logo-hero {
+    width: 300px;
+}
+
+p.slogan-hero {
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+div.hero-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+div.hero-buttons > a {
+    display: block;
+    padding: 12px 18px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+div.hero-buttons > a:nth-child(1) {
+    background-color: #96D3E4;
+    color: #303030;
+}
+
+div.hero-buttons > a:nth-child(2) {
+    border: 1px solid white;
+    color: white;
 }
