@@ -495,6 +495,7 @@ div.content-newsletter-form > div:nth-child(2) input[type="email"] {
 /** FOOTER **/
 footer.site-footer {
     background-color: #303030;
+    padding-bottom: 50px;
 }
 
 footer.site-footer p,
@@ -543,4 +544,25 @@ ul.list-social-media {
 ul.list-social-media li i {
     font-size: 3rem;
     margin-right: 8px;
+}
+
+div.companies-footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+div.companies-footer > img:first-child {
+    margin-right: 20px;
+    height: 30px;
+}
+
+div.companies-footer > img:last-child {
+    height: 40px;
+}
+
+footer.site-footer > p:last-child {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 8px 0;
 }
