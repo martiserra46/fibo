@@ -459,6 +459,14 @@ form.more-info-form > input[type="submit"] {
 
 
 /** NEWSLETTER **/
+section.newsletter-section {
+    background-image: url("../img/newsletter-background.svg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
 div.content-newsletter-form {
     display: flex;
     justify-content: space-between;
@@ -506,7 +514,7 @@ footer.site-footer i {
 
 div.content-footer {
     max-width: 800px;
-    padding: 50px 0px;
+    padding: 30px 0px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
