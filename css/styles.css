@@ -338,7 +338,7 @@ ul.list-features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 60px;
-    grid-column-gap: 120px;
+    grid-column-gap: 140px;
 }
 
 li.list-item-feature {
