@@ -26,6 +26,20 @@ a{
     text-decoration: none;
 }
 
+p {
+    color: #303030;
+}
+
+h1, h2 {
+    color: #303030;
+}
+
+div.content-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
 /* Header Styles */
 header.site-header{
     background-color: #303030;
@@ -159,4 +173,50 @@ div.hero-buttons > a:nth-child(1) {
 div.hero-buttons > a:nth-child(2) {
     border: 1px solid white;
     color: white;
+}
+
+
+/** WELCOME **/
+section.welcome-section {
+    background-image: url("../img/welcome-background.svg");
+    background-size: cover;
+    background-position: center center;
+}
+
+div.content-welcome-section {
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+h2.welcome-heading {
+    color: #303030;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2.welcome-heading img {
+    height: 32px;
+}
+
+div.content-welcome-section p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+span.paragraph-decorator {
+    position: relative;
+}
+
+span.paragraph-decorator:before {
+    content: url("../img/paragraph-decoration.svg");
+    display: block;
+    position: absolute;
+    top: -45px;
+    right: -30px;
+}
+
+div.content-welcome-section p em {
+    font-style: normal;
+    font-weight: bold;
 }
