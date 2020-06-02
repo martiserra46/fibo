@@ -33,6 +33,8 @@ p {
 
 label {
     color: #303030;
+    line-height: 1.5;
+    font-size: 1.4rem;
 }
 
 h1, h2, h3 {
@@ -452,4 +454,38 @@ form.more-info-form > p:nth-child(2) {
 
 form.more-info-form > input[type="submit"] {
     margin-top: 20px;
+}
+
+
+
+/** NEWSLETTER **/
+div.content-newsletter-form {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+div.content-newsletter-form > div {
+    max-width: 350px;
+}
+
+div.content-newsletter-form > div:nth-child(1) h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div.content-newsletter-form > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+div.content-newsletter-form > div:nth-child(2) input[type="email"] {
+    display: block;
+    border: 2px solid #303030;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 25px;
+    margin-bottom: 12px;
 }
