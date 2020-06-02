@@ -272,6 +272,23 @@ ul.list-benefits {
 
 li.list-item-benefit {
     width: 280px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-size: 60%;
+    background-position: 40% 30%;
+    background-repeat: no-repeat;
+}
+
+li.list-item-benefit:nth-child(1) {
+    background-image: url("../img/benefit1.svg");
+}
+
+li.list-item-benefit:nth-child(2) {
+    background-image: url("../img/benefit2.svg");
+}
+
+li.list-item-benefit:nth-child(3) {
+    background-image: url("../img/benefit3.svg");
 }
 
 li.list-item-benefit > p:nth-child(1) {
