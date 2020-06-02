@@ -54,12 +54,12 @@ div.logo-site-header{
     align-items: center;
 }
 
-a.content-logo-site-header{
+h1.content-logo-site-header{
     display: block;
     height: 35px;
 }
 
-a.content-logo-site-header img{
+h1.content-logo-site-header img{
     height: 100%;
 }
 
