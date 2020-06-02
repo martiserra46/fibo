@@ -319,3 +319,51 @@ li.list-item-benefit > p:nth-child(3) {
     font-size: 1.6rem;
     line-height: 1.3;
 }
+
+
+/** FEATURES **/
+section.features-section {
+    background-image: url("../img/logo-fibo-features-background.svg");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+}
+
+div.content-features-section {
+    padding: 50px 100px;
+    padding-bottom: 80px;
+}
+
+ul.list-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 120px;
+}
+
+li.list-item-feature {
+    position: relative;
+}
+
+li.list-item-feature:before {
+    content: '';
+    display: block;
+    background-image: url("../img/feature-decorator.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    left: -55px;
+}
+
+li.list-item-feature h2 {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+li.list-item-feature p {
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
