@@ -73,6 +73,10 @@ h2.floating-heading span.cursor-icon:after {
     bottom: -20px;
 }
 
+.blue-background {
+    background-color: #96D3E4;
+}
+
 /* Header Styles */
 header.site-header{
     background-color: #303030;
@@ -260,7 +264,6 @@ div.content-welcome-section p em {
 /** BENEFITS **/
 section.benefits-section {
     position: relative;
-    background-color: #96D3E4;
 }
 
 h2.benefits-heading {
@@ -268,7 +271,6 @@ h2.benefits-heading {
 }
 
 ul.list-benefits {
-    background-color: #96D3E4;
     display: flex;
     justify-content: space-between;
 }
