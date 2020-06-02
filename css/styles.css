@@ -66,6 +66,8 @@ input::placeholder {
     border: none;
     border-radius: 25px;
     margin: 0 auto;
+    outline: none;
+    cursor: pointer;
 }
 
 div.content-section{
