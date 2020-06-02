@@ -76,6 +76,17 @@ div.content-section{
     padding: 40px 20px;
 }
 
+h2 {
+    color: #303030;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 img {
+    height: 32px;
+}
+
 h2.floating-heading {
     position: absolute;
     top: -22.5px;
@@ -260,17 +271,6 @@ section.welcome-section {
 div.content-welcome-section {
     padding-top: 90px;
     padding-bottom: 90px;
-}
-
-h2.welcome-heading {
-    color: #303030;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h2.welcome-heading img {
-    height: 32px;
 }
 
 div.content-welcome-section p {
