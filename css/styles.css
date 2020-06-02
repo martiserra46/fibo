@@ -154,12 +154,12 @@ div.logo-site-header{
     align-items: center;
 }
 
-a.content-logo-site-header{
+a.logo-site-header{
     display: block;
     height: 35px;
 }
 
-a.content-logo-site-header img{
+a.logo-site-header img{
     height: 100%;
 }
 
