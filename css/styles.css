@@ -175,18 +175,17 @@ div.logo-site-header{
 a.logo-site-header{
     display: block;
     height: 35px;
-    -webkit-transition: opacity 200ms linear;
-    -ms-transition: opacity 200ms linear;
-    transition: opacity 200ms linear;
+    transition: visibility 0s linear 0ms, opacity 200ms linear;
 }
 
 a.logo-site-header img{
     height: 100%;
 }
 
-.logo-hidden {
+a.logo-hidden {
     visibility: hidden;
     opacity: 0;
+    transition: visibility 0s linear 200ms, opacity 200ms linear;
 }
 
 .menu-icon {
