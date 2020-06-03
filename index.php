@@ -182,6 +182,12 @@
             </div>
             <p>Drets d'autor &copy; 2020, Fibo l Web by MKS</p>
         </footer>
+        <?php if(!isset($_COOKIE["cookies-accepted"])): ?>
+            <div id="cookies-message" class="cookies-message">
+                <p>Encara que puguis comprar les galetes del teu forn preferit a Fibo, també necessitem que acceptis les nostres (: <a href="cookies-policy.html">"Aviam les galetes"</a></p>
+                <input id="cookies-button" type="button" class="white-button" value="Accepto!">
+            </div>
+        <?php endif; ?>
         <script src="https://kit.fontawesome.com/9ed2ade2b5.js" crossorigin="anonymous"></script>
         <script src="js/sliding-scroll.js"></script>
         <script src="js/app.js"></script>

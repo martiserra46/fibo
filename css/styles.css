@@ -925,3 +925,55 @@ a.show-logo-always {
     visibility: visible;
     opacity: 1;
 }
+
+
+/** COOKIES MESSAGE **/
+div.cookies-message {
+    background-color: #303030;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    div.cookies-message {
+        display: block;
+    }
+
+}
+
+div.cookies-message p {
+    color: white;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    div.cookies-message p {
+        margin-bottom: 10px;
+    }
+}
+
+div.cookies-message p a {
+    color: #96D3E4;
+    font-size: 1.4rem;
+}
+
+.white-button {
+    display: block;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    color: #303030;
+    cursor: pointer;
+    border-radius: 25px;
+    outline: none;
+}
+
+.hidden {
+    display: none!important;
+}

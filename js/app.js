@@ -89,6 +89,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
         
         return false;
     });
+
+    const cookies_message = document.querySelector("#cookies-message");
+    if(cookies_message) {
+        const cookies_button = document.querySelector("#cookies-button");
+        cookies_button.addEventListener("click", (event) => {
+            setCookie("cookies-accepted", true, 1000);
+            cookies_message.classList.add("hidden");
+        });
+    }
 });
 
 function updateHeader(site_header, white_list_items, logo_site){
@@ -104,4 +113,14 @@ function updateHeader(site_header, white_list_items, logo_site){
             logo_site.classList.add("logo-hidden");
         }
     }
+}
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
