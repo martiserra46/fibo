@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         
-        <link rel="icon" href="img/logo-blue.svg">
+        <link rel="icon" href="img/fibo-icon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -22,9 +22,8 @@
                     <ul class="content-nav-site-header">
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#welcome-section"><span>Què és Fibo?</span></a></li>
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#benefits-section"><span>Beneficis Fibo</span></a></li>
-                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#features-section"><span>Marca Fibo</span></a></li>
                         <li class="nav-item-site-header blue-list-item"><a class="link-with-scroll" href="#more-info-section"><span>Tens un negoci?</span></a></li>
-                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#more-info-section"><span>Com comprar?</span></a></li>
+                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#newsletter-section"><span>Com comprar?</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -108,9 +107,19 @@
                                 <input type="number" name="postal-code" required placeholder="Codi postal">
                                 <select name="sector" required>
                                     <option value="" selected disabled hidden>- Selecciona el sector -</option>
-                                    <option value="sec1">Sector1</option>
-                                    <option value="sec2">Sector2</option>
-                                    <option value="sec3">Sector3</option>
+                                    <option value="alimentacio i begudes">Alimentació i begudes</option>
+                                    <option value="nedons">Nedons</option>
+                                    <option value="bellesa i salut">Bellesa i salud</option>
+                                    <option value="vehicles">Vehícles</option>
+                                    <option value="esports">Esports</option>
+                                    <option value="electronica i informatica">Electrònica i informàtica</option>
+                                    <option value="llar i decoracio">Llar i decoració</option>
+                                    <option value="joguines">Joguines</option>
+                                    <option value="llibres i papereria">Llibres i papereria</option>
+                                    <option value="mascotes">Mascotes</option>
+                                    <option value="moda i complements">Moda i complements</option>
+                                    <option value="musica i pelicules">Música i pel·lícules</option>
+                                    <option value="videojocs">Videojocs</option>
                                 </select>
                             </div>
                             <p>Omplint el formulari i fent clic a "Enviar" vostè consenteix que Fibo utilitzi les vostres dades personals perquè l'equip comercial es pugui dirigir a vostè per correu electrònic o per telèfon amb la finalitat de donar informació sobre la plataforma.</p>
@@ -126,7 +135,7 @@
                         <div class="content-newsletter-form">
                             <div>
                                 <h2>Newsletter de <img src="img/logo-blue.svg" alt="Logo Fibo"></h2>
-                                <p>Vols estar al dia de les últimes notícies, ofertes i promocions?</p>
+                                <p>Vols estar al dia de com comprar i de les últimes notícies, ofertes i promocions?</p>
                             </div>
                             <div>
                                 <div id="container-result-form-newsletter"></div>
@@ -148,18 +157,18 @@
                 </div>
                 <div class="div-footer">
                     <h3>Termes legals</h3>
-                    <p>Política de cookies</p>
-                    <p>Política de privacitat</p>
+                    <p><a href="cookies-policy.html">Política de cookies</a></p>
+                    <p><a href="privacity-policy.html">Política de privacitat</a></p>
                     <p>Avís legal</p>
                 </div>
                 <div class="div-footer">
                     <h3>Segueix-nos</h3>
                     <ul class="list-social-media">
                         <li>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/fibo.cat/" target="blank"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/Fibocat-102160391487929" target="blank"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li>
                             <a href="#"><i class="fab fa-youtube"></i></a>
