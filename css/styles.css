@@ -89,6 +89,17 @@ h2 img {
     height: 32px;
 }
 
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+    
+    h2 img {
+        height: 22px;
+    }
+}
+
 h2.floating-heading {
     position: absolute;
     top: -22.5px;
@@ -386,6 +397,10 @@ div.content-welcome-section p {
     line-height: 1.5;
 }
 
+div.content-welcome-section p:nth-of-type(2) {
+    margin-bottom: 15px;
+}
+
 span.paragraph-decorator {
     position: relative;
 }
@@ -403,6 +418,27 @@ div.content-welcome-section p em {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1024px) {
+    span.paragraph-decorator:before {
+        content: none;
+    }
+    
+    div.content-welcome-section p:first-of-type {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    div.content-welcome-section {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    
+    div.content-welcome-section p {
+        text-align: left;
+    }
+}
 
 
 /** BENEFITS **/
