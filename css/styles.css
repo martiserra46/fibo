@@ -400,13 +400,13 @@ a.arrow-down-button {
     bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
-    animation-name: arrow-animation;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
 }
 
 a.arrow-down-button img {
     width: 30px;
+    animation-name: arrow-animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes arrow-animation {
@@ -438,7 +438,7 @@ a.arrow-down-button img {
     }
     
     div.hero-buttons > a {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 700;
     }
     
