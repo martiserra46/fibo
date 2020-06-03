@@ -11,6 +11,33 @@ window.addEventListener("DOMContentLoaded", (event) => {
     menu_icon.addEventListener("click", (event) => {
         site_header.classList.toggle("site-header-with-hidden-nav-mobile");
     });
+
+    const nav_items_site_header = document.querySelectorAll(".nav-item-site-header > a");
+    nav_items_site_header.forEach(nav_item => {
+        nav_item.addEventListener("click", (event) => {
+            event.preventDefault();
+            const section_id = nav_item.getAttribute("href");
+            const section = document.querySelector(section_id);
+            let offset;
+            if(section_id == "#welcome-section"){
+                offset = 60;
+            } else if(section_id == "#benefits-section") {
+                offset = 100;
+            } else if(section_id == "#features-section") {
+                offset = 100;
+            } else if(section_id == "#more-info-section") {
+                offset = 100;
+            }
+            scrollToY(section.offsetTop - offset, 300);
+        });
+    });
+
+    const logo_site_header = document.querySelector("#logo-site-header");
+    logo_site_header.addEventListener("click", (event) => {
+        event.preventDefault();
+        scrollToId("hero", 300);
+    });
+    
 });
 
 
