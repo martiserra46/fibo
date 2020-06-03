@@ -243,6 +243,10 @@ li.nav-item-show-line > a > span:after {
     background-color: white;
 }
 
+li.nav-item-show-line > a:hover > span:after {
+    background-color: #96D3E4;
+}
+
 li.blue-list-item > a {
     background-color: #96D3E4;
     border-radius: 15px;
