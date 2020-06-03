@@ -238,6 +238,10 @@ li.blue-list-item > a > span:after {
 
 
 @media only screen and (max-width: 1024px) {
+    header.site-header {
+        padding: 0 20px;
+    }
+
     div.content-site-header {
         display: grid;
         grid-template-columns: 1fr 1fr;
