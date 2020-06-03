@@ -8,9 +8,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     updateHeader(site_header, white_list_items, logo_site);
 
     const menu_icon = document.querySelector("#menu-icon");
-    const nav_site_header = document.querySelector("#nav-site-header");
     menu_icon.addEventListener("click", (event) => {
-        nav_site_header.classList.toggle("nav-site-header-hidden-mobile");
+        site_header.classList.toggle("site-header-with-hidden-nav-mobile");
     });
 });
 

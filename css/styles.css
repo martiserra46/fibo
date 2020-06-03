@@ -129,7 +129,7 @@ h2.floating-heading span.cursor-icon:after {
 /* Header Styles */
 header.site-header{
     background-color: #303030;
-    height: 60px;
+    min-height: 60px;
     padding: 0 32px;
     position: fixed;
     z-index: 1000;
@@ -142,12 +142,12 @@ header.site-header{
 }
 
 header.header-background-hidden {
-    background: none!important;
+    background: none;
 }
 
 div.content-site-header{
     max-width: 1400px;
-    height: 100%;
+    min-height: 60px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -174,7 +174,7 @@ a.logo-site-header img{
 }
 
 .logo-hidden {
-    visibility: hidden!important;
+    visibility: hidden;
     opacity: 0;
 }
 
@@ -182,21 +182,8 @@ a.logo-site-header img{
     display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-}
-
 nav.nav-site-header{
     height: 100%;
-}
-
-@media only screen and (max-width: 1024px) {
-    nav.nav-site-header-hidden-mobile {
-        display: none;
-    }
 }
 
 ul.content-nav-site-header{
@@ -237,6 +224,62 @@ li.blue-list-item > a {
 li.blue-list-item > a > span:after {
     content: none;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    div.content-site-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60px;
+    }
+
+    a.logo-site-header {
+        justify-self: start;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        justify-self: end;
+    }
+
+    nav.nav-site-header {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    header.site-header-with-hidden-nav-mobile nav.nav-site-header {
+        display: none;
+    }
+
+    header.site-header:not(.site-header-with-hidden-nav-mobile) {
+        background-color: #303030;
+    }
+
+    ul.content-nav-site-header{
+        display: block;
+        width: 100%;
+    }
+
+    li.nav-item-site-header {
+        display: block;
+        padding: 10px 0;
+    }
+    
+    li.nav-item-site-header > a {
+        display: block;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    li.nav-item-show-line > a > span:after {
+        content: none;
+    }
+}
+
 
 
 /** HERO **/
