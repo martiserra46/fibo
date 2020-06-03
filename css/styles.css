@@ -818,6 +818,7 @@ footer.site-footer {
 
 footer.site-footer p,
 footer.site-footer h3,
+footer.site-footer a,
 footer.site-footer i {
     color: white;
 }
@@ -892,4 +893,35 @@ footer.site-footer > p:last-child {
         margin: 0 auto;
         grid-template-columns: 1fr;
     }
+}
+
+
+
+/** LEGAL SECTION **/
+header.background-never-hidden {
+    background-color: #303030;
+}
+
+header.background-never-hidden a span:after {
+    content: none;
+}
+
+main.legal-section {
+    margin-top: 60px;
+    min-height: calc(100vh - 60px);
+    background-image: url("../img/welcome-background.svg"), url("../img/newsletter-background.svg");
+    background-position: top center, bottom center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+div.content-legal-section {
+    max-width: 900px;
+    padding: 150px 20px;
+    margin: 0 auto;
+}
+
+a.show-logo-always {
+    visibility: visible;
+    opacity: 1;
 }
