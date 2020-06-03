@@ -194,7 +194,7 @@ nav.nav-site-header{
 }
 
 @media only screen and (max-width: 1024px) {
-    nav.nav-site-header{
+    nav.nav-site-header-hidden-mobile {
         display: none;
     }
 }
