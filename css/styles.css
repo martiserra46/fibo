@@ -632,6 +632,25 @@ form.more-info-form > input[type="submit"] {
 }
 
 
+@media only screen and (max-width: 680px) {
+    div.list-inputs-form {
+        grid-column-gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    section.more-info-section {
+        background-image: none;
+    }
+
+    div.content-form {
+        max-width: 300px;
+    }
+
+    div.list-inputs-form {
+        grid-template-columns: 1fr;
+    }
+}
 
 /** NEWSLETTER **/
 section.newsletter-section {
