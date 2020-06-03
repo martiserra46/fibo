@@ -303,10 +303,12 @@ div.content-hero {
 
 h1.fibo-main-heading {
     margin: 0;
+    text-align: center;
 }
 
 img.logo-hero {
-    width: 300px;
+    max-width: 300px;
+    width: 50vw;
 }
 
 p.slogan-hero {
@@ -328,6 +330,7 @@ div.hero-buttons > a {
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 700;
+    text-align: center;
 }
 
 div.hero-buttons > a:nth-child(1) {
@@ -340,6 +343,30 @@ div.hero-buttons > a:nth-child(2) {
     color: white;
 }
 
+@media only screen and (max-width: 1024px){
+    div.content-hero {
+        height: 350px;
+    }
+    
+    p.slogan-hero {
+        font-size: 2.2rem;
+    }
+    
+    div.hero-buttons {
+        display: block;
+        width: 250px;
+    }
+    
+    div.hero-buttons > a {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    div.hero-buttons > a:nth-child(1) {
+        margin-bottom: 15px;
+    }
+    
+}
 
 /** WELCOME **/
 section.welcome-section {
