@@ -759,7 +759,7 @@ footer.site-footer i {
 
 div.content-footer {
     max-width: 800px;
-    padding: 30px 0px;
+    padding: 30px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -818,4 +818,13 @@ footer.site-footer > p:last-child {
     text-align: center;
     font-size: 1.5rem;
     padding: 8px 0;
+}
+
+
+@media only screen and (max-width: 850px) {
+    div.content-footer {
+        max-width: 300px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
 }
