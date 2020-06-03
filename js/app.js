@@ -51,6 +51,34 @@ window.addEventListener("DOMContentLoaded", (event) => {
         .then(res => {
             if(res == "success") {
                 div.innerHTML = "<p class='success'>S'ha enviat correctament</p>";
+                newsletter_form.reset();
+            } else {
+                div.innerHTML = "<p class='error'>S'ha produït un error</p>";
+            }
+        })
+        .catch(error => {
+            div.innerHTML = "<p class='error'>S'ha produït un error</p>";
+        });
+        
+        return false;
+    });
+
+    const more_info_form = document.querySelector("#more-info-form");
+    more_info_form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const url = 'add-to-companies.php';
+        const formData = new FormData(more_info_form);
+        const div = document.querySelector("#container-result-form-more-info");
+
+        fetch(url, {
+            method: "POST",
+            body: formData
+        })
+        .then(res => res.text())
+        .then(res => {
+            if(res == "success") {
+                div.innerHTML = "<p class='success'>S'ha enviat correctament</p>";
+                more_info_form.reset();
             } else {
                 div.innerHTML = "<p class='error'>S'ha produït un error</p>";
             }

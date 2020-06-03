@@ -98,22 +98,23 @@
                     <h2 class="more-info-heading floating-heading">Més informació<span class="cursor-icon"></span></h2>
                     <div class="content-form">
                         <p>Informat sense compromís, un comercial de Fibo es posarà en contacte en 24h.</p>
-                        <form class="more-info-form">
+                        <form action="add-to-companies.php" method="post" id="more-info-form" class="more-info-form">
+                            <div id="container-result-form-more-info"></div>
                             <div class="list-inputs-form">
-                                <input type="text" required placeholder="Nom Comercial">
-                                <input type="text" required placeholder="Persona de Contacte">
-                                <input type="email" required placeholder="Email">
-                                <input type="tel" required placeholder="Telèfon">
-                                <input type="number" required placeholder="Codi postal">
-                                <select required>
-                                    <option value="" disabled selected>Sector</option>
-                                    <option>Sector1</option>
-                                    <option>Sector2</option>
-                                    <option>Sector3</option>
+                                <input type="text" name="comercial-name" required placeholder="Nom Comercial">
+                                <input type="text" name="person-to-contact" required placeholder="Persona de Contacte">
+                                <input type="email" name="email" required placeholder="Email">
+                                <input type="tel" name="phone" required placeholder="Telèfon">
+                                <input type="number" name="postal-code" required placeholder="Codi postal">
+                                <select name="sector" required>
+                                    <option value="" selected disabled hidden>- Selecciona el sector -</option>
+                                    <option value="sec1">Sector1</option>
+                                    <option value="sec2">Sector2</option>
+                                    <option value="sec3">Sector3</option>
                                 </select>
                             </div>
                             <p>Omplint el formulari i fent clic a "Enviar" vostè consenteix que Fibo utilitzi les vostres dades personals perquè l'equip comercial es pugui dirigir a vostè per correu electrònic o per telèfon amb la finalitat de donar informació sobre la plataforma.</p>
-                            <label><input required type="checkbox"> Desitjo rebre informació periòdica sobre la plataforma Fibo i els seus serveis per correu electrònic.</label>
+                            <label><input name="get-periodic-data" type="checkbox"> Desitjo rebre informació periòdica sobre la plataforma Fibo i els seus serveis per correu electrònic.</label>
                             <input class="button" type="submit" value="Enviar">
                         </form>
                     </div>

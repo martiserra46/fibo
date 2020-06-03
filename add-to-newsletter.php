@@ -1,6 +1,8 @@
 <?php
 require_once("db_config.php");
 $mysqli = new mysqli($host, $user, $password, $db);
+$mysqli->set_charset("utf8");
+
 $email = $_POST["email"];
 
 if(!($stmt = $mysqli->prepare("INSERT INTO newsletter_companies VALUES(NULL, ?)"))) error();
