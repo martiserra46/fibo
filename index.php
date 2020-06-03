@@ -121,14 +121,14 @@
             </section>
             <section id="newsletter-section" class="newsletter-section">
                 <div class="content-newsletter-section content-section">
-                    <form class="newsletter-form">
+                    <form action="add-to-newsletter.php" method="POST" class="newsletter-form">
                         <div class="content-newsletter-form">
                             <div>
                                 <h2>Newsletter de <img src="img/logo-blue.svg" alt="Logo Fibo"></h2>
                                 <p>Vols estar al dia de les últimes notícies, ofertes i promocions?</p>
                             </div>
                             <div>
-                                <input type="email" required placeholder="Introdueix el teu correu electrònic">
+                                <input type="email" required name="email" placeholder="Introdueix el teu correu electrònic">
                                 <label><input type="checkbox" required> Autoritzo que Fibo utilitzi les meves dades per enviar-me notícies, promocions i ofertes personalitzades mitjançant correu electrònic.</label>
                             </div>
                         </div>

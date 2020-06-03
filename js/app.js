@@ -36,6 +36,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             scrollToY(section.offsetTop - offset, 500);
         });
     });
+
 });
 
 
