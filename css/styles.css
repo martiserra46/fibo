@@ -92,6 +92,18 @@ input::placeholder {
     cursor: pointer;
 }
 
+p.success {
+    color: #007204;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+p.error {
+    color: #DB0700;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
 div.content-section{
     max-width: 1200px;
     margin: 0 auto;

@@ -2,11 +2,15 @@
 require_once("db_config.php");
 $mysqli = new mysqli($host, $user, $password, $db);
 $email = $_POST["email"];
-$success;
-if($mysqli->query("INSERT INTO newsletter_companies VALUES(NULL, '$email')")){
-    $success = true;
-} else {
-    $success = false;
+
+if(!($stmt = $mysqli->prepare("INSERT INTO newsletter_companies VALUES(NULL, ?)"))) error();
+if(!$stmt->bind_param("s", $email)) error();
+if(!$stmt->execute()) error();
+
+echo "success";
+
+function error(){
+    echo "error";
+    die();
 }
-echo $success ? "true" : "false";
 ?>

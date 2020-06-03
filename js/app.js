@@ -37,8 +37,32 @@ window.addEventListener("DOMContentLoaded", (event) => {
         });
     });
 
-});
+    const newsletter_form = document.querySelector("#newsletter-form");
+    newsletter_form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const url = 'add-to-newsletter.php';
+        const formData = new FormData(newsletter_form);
+        const div = document.querySelector("#container-result-form-newsletter");
 
+        fetch(url, {
+            method: "POST",
+            body: formData
+        })
+        .then(res => res.text())
+        .then(res => {
+            if(res == "success") {
+                div.innerHTML = "<p class='success'>S'ha enviat correctament</p>";
+            } else {
+                div.innerHTML = "<p class='error'>S'ha produït un error</p>";
+            }
+        })
+        .catch(error => {
+            div.innerHTML = "<p class='error'>S'ha produït un error</p>";
+        });
+        
+        return false;
+    });
+});
 
 function updateHeader(site_header, white_list_items, logo_site){
     if(window.scrollY == 0) {
