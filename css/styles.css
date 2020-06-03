@@ -317,6 +317,7 @@ div.hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 div.content-hero {
@@ -367,6 +368,35 @@ div.hero-buttons > a:nth-child(1) {
 div.hero-buttons > a:nth-child(2) {
     border: 1px solid white;
     color: white;
+}
+
+a.arrow-down-button {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: arrow-animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+a.arrow-down-button img {
+    width: 30px;
+}
+
+@keyframes arrow-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media only screen and (max-width: 1024px){
