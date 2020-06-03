@@ -447,16 +447,27 @@ a.arrow-down-button img {
 
 @media only screen and (max-height: 500px) {
     div.content-hero {
-        height: 200px;
+        height: 250px;
     }
 
     img.logo-hero {
-        width: 125px;
+        width: 200px;
     }
 
     div.hero-buttons > a {
         font-size: 1.2rem;
         padding: 8px 8px;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+
+    div.content-hero {
+        height: 200px;
+    }
+
+    img.logo-hero {
+        width: 125px;
     }
 }
 
