@@ -12,14 +12,17 @@ window.addEventListener("DOMContentLoaded", (event) => {
         site_header.classList.toggle("site-header-with-hidden-nav-mobile");
     });
 
-    const nav_items_site_header = document.querySelectorAll(".nav-item-site-header > a");
-    nav_items_site_header.forEach(nav_item => {
-        nav_item.addEventListener("click", (event) => {
+    const links_with_scroll = document.querySelectorAll("a.link-with-scroll");
+    links_with_scroll.forEach(element => {
+        element.addEventListener("click", (event) => {
             event.preventDefault();
-            const section_id = nav_item.getAttribute("href");
+            const section_id = element.getAttribute("href");
+            console.log(section_id);
             const section = document.querySelector(section_id);
             let offset;
-            if(section_id == "#welcome-section"){
+            if(section_id == "#hero") {
+                offset = 0;
+            } else if(section_id == "#welcome-section"){
                 offset = 60;
             } else if(section_id == "#benefits-section") {
                 offset = 100;
@@ -27,17 +30,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
                 offset = 100;
             } else if(section_id == "#more-info-section") {
                 offset = 100;
+            } else if(section_id == "#newsletter-section") {
+                offset = 100;
             }
-            scrollToY(section.offsetTop - offset, 300);
+            scrollToY(section.offsetTop - offset, 500);
         });
     });
-
-    const logo_site_header = document.querySelector("#logo-site-header");
-    logo_site_header.addEventListener("click", (event) => {
-        event.preventDefault();
-        scrollToId("hero", 300);
-    });
-    
 });
 
 
