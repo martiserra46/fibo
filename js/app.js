@@ -17,7 +17,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         element.addEventListener("click", (event) => {
             event.preventDefault();
             const section_id = element.getAttribute("href");
-            console.log(section_id);
             const section = document.querySelector(section_id);
             let offset;
             if(section_id == "#hero") {
@@ -27,11 +26,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
             } else if(section_id == "#benefits-section") {
                 offset = 100;
             } else if(section_id == "#features-section") {
-                offset = 100;
+                offset = 60;
             } else if(section_id == "#more-info-section") {
                 offset = 100;
             } else if(section_id == "#newsletter-section") {
-                offset = 100;
+                offset = 60;
             }
             scrollToY(section.offsetTop - offset, 500);
         });
