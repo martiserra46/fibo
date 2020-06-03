@@ -22,7 +22,7 @@
                     <ul class="content-nav-site-header">
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#welcome-section"><span>Què és Fibo?</span></a></li>
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#benefits-section"><span>Beneficis Fibo</span></a></li>
-                        <li class="nav-item-site-header blue-list-item"><a class="link-with-scroll" href="#more-info-section"><span>Tens un negoci?</span></a></li>
+                        <li class="nav-item-site-header blue-list-item"><a class="link-with-scroll" href="#more-info-section"><span>Vols ser venedor?</span></a></li>
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#newsletter-section"><span>Com comprar?</span></a></li>
                     </ul>
                 </nav>
@@ -153,12 +153,12 @@
                 <div class="div-footer">
                     <h3>Atenció al client</h3>
                     <p>info@fibo.cat</p>
-                    <p>Contacte</p>
+                    <p><a href="#more-info-section" class="link-with-scroll">Contacte</a></p>
                 </div>
                 <div class="div-footer">
                     <h3>Termes legals</h3>
-                    <p><a href="cookies-policy.html">Política de cookies</a></p>
-                    <p><a href="privacity-policy.html">Política de privacitat</a></p>
+                    <p>Política de cookies</p>
+                    <p>Política de privacitat</p>
                     <p>Avís legal</p>
                 </div>
                 <div class="div-footer">
@@ -171,7 +171,7 @@
                             <a href="https://www.facebook.com/Fibocat-102160391487929" target="blank"><i class="fab fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -184,7 +184,7 @@
         </footer>
         <?php if(!isset($_COOKIE["cookies-accepted"])): ?>
             <div id="cookies-message" class="cookies-message">
-                <p>Encara que puguis comprar les galetes del teu forn preferit a Fibo, també necessitem que acceptis les nostres (: <a href="cookies-policy.html">"Aviam les galetes"</a></p>
+                <p>Encara que puguis comprar les galetes del teu forn preferit a Fibo, també necessitem que acceptis les nostres (: <a>"A veure les galetes"</a></p>
                 <input id="cookies-button" type="button" class="white-button" value="Accepto!">
             </div>
         <?php endif; ?>

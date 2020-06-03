@@ -348,7 +348,7 @@ div.content-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 320px;
     justify-content: space-between;
 }
 
@@ -358,20 +358,20 @@ h1.fibo-main-heading {
 }
 
 img.logo-hero {
-    max-width: 300px;
+    max-width: 350px;
     width: 50vw;
 }
 
 p.slogan-hero {
     color: white;
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     font-weight: 500;
 }
 
 div.hero-buttons {
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    width: 460px;
 }
 
 div.hero-buttons > a {
@@ -379,7 +379,7 @@ div.hero-buttons > a {
     padding: 12px 18px;
     border-radius: 25px;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
 }
@@ -429,7 +429,7 @@ a.arrow-down-button img {
     }
     
     p.slogan-hero {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
     
     div.hero-buttons {
