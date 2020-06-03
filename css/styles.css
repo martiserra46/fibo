@@ -538,6 +538,7 @@ ul.list-features {
 
 li.list-item-feature {
     position: relative;
+    min-height: 135px;
 }
 
 li.list-item-feature:before {
@@ -562,6 +563,27 @@ li.list-item-feature h2 {
 li.list-item-feature p {
     line-height: 1.5;
     font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 950px) {
+    div.content-features-section {
+        padding-right: 40px;
+        padding-left: 75px;
+        padding-bottom: 80px;
+    }
+    
+    ul.list-features {
+        display: block;
+    }
+    
+    li.list-item-feature {
+        margin-bottom: 40px;
+    }
+    
+    li.list-item-feature:last-of-type {
+        margin-bottom: 0;
+    }
+    
 }
 
 
