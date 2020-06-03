@@ -556,6 +556,7 @@ li.list-item-feature:before {
 li.list-item-feature h2 {
     font-size: 2.4rem;
     margin-bottom: 8px;
+    text-align: left;
 }
 
 li.list-item-feature p {
