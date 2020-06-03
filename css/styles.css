@@ -41,12 +41,19 @@ label {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  -moz-appearance: none;
   margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 h1, h2, h3 {
