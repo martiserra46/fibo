@@ -153,6 +153,7 @@
                 <div class="div-footer">
                     <h3>Atenció al client</h3>
                     <p>info@fibo.cat</p>
+                    <p>+34 642 85 12 02</p>
                     <p><a href="#more-info-section" class="link-with-scroll">Contacte</a></p>
                 </div>
                 <div class="div-footer">
