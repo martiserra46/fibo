@@ -220,8 +220,9 @@ a.logo-hidden {
     transition: visibility 0s linear 200ms, opacity 200ms linear;
 }
 
-.menu-icon {
+a.menu-icon {
     display: none;
+    padding-top: 2px;
 }
 
 nav.nav-site-header{
@@ -287,9 +288,8 @@ li.blue-list-item > a > span:after {
         justify-self: start;
     }
 
-    .menu-icon {
+    a.menu-icon {
         display: block;
-        cursor: pointer;
         justify-self: end;
     }
 

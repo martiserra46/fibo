@@ -19,7 +19,7 @@
                 <a id="logo-site-header" href="#hero" class="logo-site-header logo-hidden link-with-scroll">
                     <img src="img/logo-white.svg" alt="Logo Fibo">
                 </a>
-                <img id="menu-icon" class="menu-icon" src="img/menu-icon.svg" alt="Menu Icon">
+                <a href="#" id="menu-icon" class="menu-icon"><img src="img/menu-icon.svg" alt="Menu Icon"></a>
                 <nav id="nav-site-header" class="nav-site-header">
                     <ul class="content-nav-site-header">
                         <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#welcome-section"><span>Què és Fibo?</span></a></li>
