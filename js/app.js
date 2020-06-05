@@ -3,11 +3,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     interactiveHeaderStylesOnScroll(site_header);
     changeNavMobileOnClick(site_header);
 
-    const links_with_scroll = {
-        links: "a.link-with-scroll",
-        duration: 500
-    }
-    setupLinksWithScroll(links_with_scroll);
+    setupLinksWithScroll({ links: "a.link-with-scroll", duration: 500 });
 
     
 
