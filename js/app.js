@@ -9,7 +9,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     const menu_icon = document.querySelector("#menu-icon");
     menu_icon.addEventListener("click", (event) => {
-        site_header.classList.toggle("site-header-with-hidden-nav-mobile");
+        event.preventDefault();
+        site_header.classList.toggle("header-with-mobile-nav-hidden");
     });
 
     const links_with_scroll = {
