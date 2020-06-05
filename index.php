@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="ca">
     <head>
+        <meta charset="utf-8">
+        <meta name="description" content="El petit comerç a un clic">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="keywords" content="comerç, comprar, ecommerce">
+
         <title>Fibo - El petit comerç a un clic</title>
 
-        <meta name="description" content="El petit comerç a un clic">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no">
-        
         <link rel="icon" href="img/fibo-icon.ico">
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
