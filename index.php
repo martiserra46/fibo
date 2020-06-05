@@ -14,18 +14,18 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header id="site-header" class="site-header header-background-hidden site-header-with-hidden-nav-mobile">
+        <header id="site-header" class="site-header header-on-top">
             <div class="content-site-header">
-                <a id="logo-site-header" href="#hero" class="logo-site-header logo-hidden link-with-scroll">
+                <a id="logo-site-header" href="#hero" class="logo-site-header link-with-scroll">
                     <img src="img/logo-white.svg" alt="Logo Fibo">
                 </a>
                 <a href="#" id="menu-icon" class="menu-icon"><img src="img/menu-icon.svg" alt="Menu Icon"></a>
                 <nav id="nav-site-header" class="nav-site-header">
-                    <ul class="content-nav-site-header">
-                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#welcome-section"><span>Què és Fibo?</span></a></li>
-                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#benefits-section"><span>Beneficis Fibo</span></a></li>
-                        <li class="nav-item-site-header blue-list-item"><a class="link-with-scroll" href="#more-info-section"><span>Vols ser venedor?</span></a></li>
-                        <li class="nav-item-site-header white-list-item nav-item-show-line"><a class="link-with-scroll" href="#newsletter-section"><span>Com comprar?</span></a></li>
+                    <ul>
+                        <li class="white-list-item-header"><a class="link-with-scroll" href="#welcome-section"><span>Què és Fibo?</span></a></li>
+                        <li class="white-list-item-header"><a class="link-with-scroll" href="#benefits-section"><span>Beneficis Fibo</span></a></li>
+                        <li class="blue-list-item-header"><a class="link-with-scroll" href="#more-info-section"><span>Vols ser venedor?</span></a></li>
+                        <li class="white-list-item-header"><a class="link-with-scroll" href="#newsletter-section"><span>Com comprar?</span></a></li>
                     </ul>
                 </nav>
             </div>
