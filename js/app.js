@@ -12,29 +12,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
         site_header.classList.toggle("site-header-with-hidden-nav-mobile");
     });
 
-    const links_with_scroll = document.querySelectorAll("a.link-with-scroll");
-    links_with_scroll.forEach(element => {
-        element.addEventListener("click", (event) => {
-            event.preventDefault();
-            const section_id = element.getAttribute("href");
-            const section = document.querySelector(section_id);
-            let offset;
-            if(section_id == "#hero") {
-                offset = 0;
-            } else if(section_id == "#welcome-section"){
-                offset = 60;
-            } else if(section_id == "#benefits-section") {
-                offset = 100;
-            } else if(section_id == "#features-section") {
-                offset = 60;
-            } else if(section_id == "#more-info-section") {
-                offset = 100;
-            } else if(section_id == "#newsletter-section") {
-                offset = 60;
-            }
-            scrollToY(section.offsetTop - offset, 500);
-        });
-    });
+    const links_with_scroll = {
+        links: "a.link-with-scroll",
+        duration: 500
+    }
+    setupLinksWithScroll(links_with_scroll);
+
+    
 
     const newsletter_form = document.querySelector("#newsletter-form");
     newsletter_form.addEventListener("submit", (event) => {

@@ -29,7 +29,7 @@
             </div>
         </header>
         <main class="site-main">
-            <div id="hero" class="hero">
+            <div id="hero" class="hero" data-offset-on-scroll="0">
                 <div class="content-hero">
                     <h1 class="fibo-main-heading"><img class="logo-hero" src="img/logo-hero.svg" alt="Fibo | El petit comerç a un clic"></h1>
                     <p class="slogan-hero">El petit comerç a un clic!</p>
@@ -40,7 +40,7 @@
                 </div>
                 <a id="arrow-down-button" class="arrow-down-button link-with-scroll" href="#welcome-section"><img src="img/arrow-down.svg" alt="Arrow Down Button"></a>
             </div>
-            <section id="welcome-section" class="welcome-section">
+            <section id="welcome-section" class="welcome-section" data-offset-on-scroll="59">
                 <div class="content-welcome-section content-section">
                     <h2 class="welcome-heading">Benvingut a <img src="img/logo-blue.svg" alt="Logo Fibo"></h2>
                     <p><span class="paragraph-decorator"></span>Davant d'un mercat dinàmic i canviant, ens hem proposat buscar una manera senzilla per <em>digitalitzar els negocis tradicionals</em>.</p>
@@ -48,7 +48,7 @@
                     <p><em>Fibo és una plataforma destinada a connectar consumidors amb el comerç local</em>.</p>
                 </div>
             </section>
-            <section id="benefits-section" class="benefits-section blue-background">
+            <section id="benefits-section" class="benefits-section blue-background" data-offset-on-scroll="100">
                 <div class="content-benefits-section content-section">
                     <h2 class="benefits-heading floating-heading">Beneficis Fibo<span class="cursor-icon"></span></h2>
                     <ul class="list-benefits">
@@ -70,7 +70,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="features-section" class="features-section">
+            <section id="features-section" class="features-section" data-offset-on-scroll="60">
                 <div class="content-features-section content-section">
                     <ul class="list-features">
                         <li class="list-item-feature">
@@ -92,7 +92,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="more-info-section" class="more-info-section blue-background">
+            <section id="more-info-section" class="more-info-section blue-background" data-offset-on-scroll="100">
                 <div class="content-more-info-section content-section">
                     <h2 class="more-info-heading floating-heading">Més informació<span class="cursor-icon"></span></h2>
                     <div class="content-form">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </section>
-            <section id="newsletter-section" class="newsletter-section">
+            <section id="newsletter-section" class="newsletter-section" data-offset-on-scroll="60">
                 <div class="content-newsletter-section content-section">
                     <form action="add-to-newsletter.php" id="newsletter-form" method="POST" class="newsletter-form">
                         <div class="content-newsletter-form">
@@ -191,6 +191,7 @@
         <?php endif; ?>
         <script src="https://kit.fontawesome.com/9ed2ade2b5.js" crossorigin="anonymous"></script>
         <script src="js/sliding-scroll.js"></script>
+        <script src="js/links-with-scroll.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
