@@ -299,10 +299,12 @@ header.site-header.header-on-top:not(.header-fixed-styles) li.white-list-item-he
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 2;
+        overflow: hidden;
+        align-self: start;
     }
     
-    header.site-header.header-with-mobile-nav-hidden nav.nav-site-header {
-        display: none;
+    header.site-header.header-with-mobile-nav-hidden div.content-site-header {
+        grid-template-rows: 60px 0px;
     }
 
     nav.nav-site-header > ul {
