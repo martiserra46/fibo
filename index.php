@@ -195,6 +195,7 @@
         <script src="js/interactiveHeader.js"></script>
         <script src="js/sliding-scroll.js"></script>
         <script src="js/links-with-scroll.js"></script>
+        <script src="js/ajax-functions.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
