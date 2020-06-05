@@ -14,10 +14,11 @@ function interactiveHeaderStylesOnScroll(site_header) {
     });
     
 }
- 
 
-const menu_icon = document.querySelector("#menu-icon");
+function changeNavMobileOnClick(site_header) {
+    const menu_icon = site_header.querySelector("#menu-icon");
     menu_icon.addEventListener("click", (event) => {
         event.preventDefault();
         site_header.classList.toggle("header-with-mobile-nav-hidden");
     });
+}

@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", (event) => {
     const site_header = document.querySelector("#site-header");
     interactiveHeaderStylesOnScroll(site_header);
+    changeNavMobileOnClick(site_header);
 
     const links_with_scroll = {
         links: "a.link-with-scroll",
