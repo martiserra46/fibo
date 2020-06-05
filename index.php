@@ -192,6 +192,7 @@
             </div>
         <?php endif; ?>
         <script src="https://kit.fontawesome.com/9ed2ade2b5.js" crossorigin="anonymous"></script>
+        <script src="js/interactiveHeader.js"></script>
         <script src="js/sliding-scroll.js"></script>
         <script src="js/links-with-scroll.js"></script>
         <script src="js/app.js"></script>
