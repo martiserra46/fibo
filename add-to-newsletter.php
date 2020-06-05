@@ -9,10 +9,10 @@ if(!($stmt = $mysqli->prepare("INSERT INTO newsletter_companies VALUES(NULL, ?)"
 if(!$stmt->bind_param("s", $email)) error();
 if(!$stmt->execute()) error();
 
-echo "success";
+echo json_encode(array("result" => true));
 
 function error(){
-    echo "error";
+    echo json_encode(array("result" => false));
     die();
 }
 ?>

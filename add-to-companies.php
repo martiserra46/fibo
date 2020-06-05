@@ -15,10 +15,10 @@ if(!($stmt = $mysqli->prepare("INSERT INTO company VALUES(NULL, ?, ?, ?, ?, ?, ?
 if(!$stmt->bind_param("ssssssi", $comercial_name, $person_to_contact, $email, $phone, $postal_code, $sector, $get_periodic_data)) error();
 if(!$stmt->execute()) error();
 
-echo "success";
+echo json_encode(array("result" => true));
 
 function error(){
-    echo "error";
+    echo json_encode(array("result" => false));
     die();
 }
 ?>
